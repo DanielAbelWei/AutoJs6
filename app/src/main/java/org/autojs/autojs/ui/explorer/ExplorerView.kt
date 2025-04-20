@@ -334,7 +334,7 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         enterChildPage(currentPage)
     }
 
-    fun setExplorer(rootPath: String?, currentPath: String) {
+    private fun setExplorer(rootPath: String?, currentPath: String) {
         setExplorer(Explorers.workspace(), ExplorerDirPage.createRoot(Objects.requireNonNullElseGet(rootPath, WorkingDirectoryUtils::path)), ExplorerDirPage.createRoot(currentPath))
     }
 
@@ -488,7 +488,7 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         reload()
     }
 
-    fun reload() {
+    private fun reload() {
         refreshCurrentPage()
     }
 
@@ -798,8 +798,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
             }
             if (!mExplorerItem.canBuildApk()) {
                 menu.removeItem(R.id.action_build_apk)
-            }
-            if (!mExplorerItem.canSetAsWorkingDir()) {
             }
             val samplePath = PFile(context.filesDir, WorkspaceFileProvider.SAMPLE_PATH).path
             if (!(mExplorerItem.path.startsWith(samplePath))) {
