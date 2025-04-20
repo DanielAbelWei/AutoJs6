@@ -660,8 +660,10 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
 
             mInstall = explorerFileBinding.install
             mInstall.setOnClickListener { withItemSelected { install() } }
-
-            mOptions = explorerFileBinding.more
+            
+            mOptions = explorerFileBinding.more.also {
+                it.visibility = View.GONE
+            }
 
             explorerFileBinding.item.setOnClickListener { withItemSelected { onItemClick() } }
         }
@@ -822,7 +824,9 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         private var mName = binding.name
         private var mDirDate = binding.scriptDirDate
         private var mIcon = binding.icon
-        private var mOptions = binding.more
+        private var mOptions = binding.more.also {
+            it.visibility = View.GONE
+        }
 
         private var mExplorerPage: ExplorerPage? = null
 
