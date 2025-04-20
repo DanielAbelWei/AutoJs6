@@ -68,10 +68,6 @@ import org.autojs.autojs6.R
 import org.autojs.autojs6.databinding.ActivityMainBinding
 import org.greenrobot.eventbus.EventBus
 
-/**
- * Modified by SuperMonster003 as of Dec 1, 2021.
- * Transformed by SuperMonster003 on May 11, 2023.
- */
 class MainActivity : BaseActivity(), DelegateHost, HostActivity {
 
     override val handleStatusBarThemeColorAutomatically = false
