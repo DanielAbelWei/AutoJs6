@@ -74,11 +74,6 @@ import java.io.File
 import java.util.*
 import java.util.concurrent.Callable
 
-/**
- * Created by Stardust on Aug 21, 2017.
- * Modified by SuperMonster003 as of Apr 1, 2023.
- * Transformed by SuperMonster003 on Nov 23, 2024.
- */
 @SuppressLint("CheckResult", "NonConstantResourceId", "NotifyDataSetChanged")
 open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRefreshListener, PopupMenu.OnMenuItemClickListener {
 
@@ -428,9 +423,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         layoutManager?.scrollToPosition(position)
     }
 
-    // TODO by SuperMonster003 on Apr 1, 2023.
-    //  ! Apparently, a more graceful way is needed.
-    //  ! zh-CN: 显然, 需要一个更优雅的实现方式.
     private fun saveExplorerState() {
         val currentPath = currentPage.path
         putString(getPrefKey("explorer_current"), currentPath)
@@ -450,9 +442,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         putLinkedList(getPrefKey("explorer_histories"), histories)
     }
 
-    // TODO by SuperMonster003 on Apr 1, 2023.
-    //  ! Apparently, a more graceful way is needed.
-    //  ! zh-CN: 显然, 需要一个更优雅的实现方式.
     private fun restoreExplorerState() {
         val storedCurrentPath = getStringOrNull(getPrefKey("explorer_current"))
         if (storedCurrentPath != null) {
