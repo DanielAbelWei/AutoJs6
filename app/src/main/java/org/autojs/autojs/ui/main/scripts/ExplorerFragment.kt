@@ -35,11 +35,6 @@ import org.autojs.autojs6.databinding.FragmentExplorerBinding
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 
-/**
- * Created by Stardust on Mar 13, 2017.
- * Modified by SuperMonster003 as of Mar 20, 2022.
- * Transformed by SuperMonster003 on Mar 31, 2023.
- */
 class ExplorerFragment : ViewPagerFragment(0), OnFloatingActionButtonClickListener, ViewStatesManageable {
 
     private val binding by viewBinding(FragmentExplorerBinding::bind)
