@@ -47,7 +47,6 @@ import org.autojs.autojs.theme.ThemeColorManager.addViewBackground
 import org.autojs.autojs.theme.widget.ThemeColorFloatingActionButton
 import org.autojs.autojs.theme.widget.ThemeColorToolbar
 import org.autojs.autojs.ui.BaseActivity
-import org.autojs.autojs.ui.doc.DocumentationFragment
 import org.autojs.autojs.ui.enhancedfloaty.FloatyService
 import org.autojs.autojs.ui.explorer.ExplorerView
 import org.autojs.autojs.ui.floating.FloatyWindowManger
@@ -55,7 +54,6 @@ import org.autojs.autojs.ui.log.LogActivity
 import org.autojs.autojs.ui.main.drawer.DrawerFragment.Companion.Event.OnDrawerClosed
 import org.autojs.autojs.ui.main.drawer.DrawerFragment.Companion.Event.OnDrawerOpened
 import org.autojs.autojs.ui.main.scripts.ExplorerFragment
-import org.autojs.autojs.ui.main.task.TaskManagerFragment
 import org.autojs.autojs.ui.settings.PreferencesActivity
 import org.autojs.autojs.ui.widget.DrawerAutoClose
 import org.autojs.autojs.ui.widget.SearchViewItem
@@ -223,8 +221,6 @@ class MainActivity : BaseActivity(), DelegateHost, HostActivity {
     private fun setUpTabViewPager(binding: ActivityMainBinding) {
         mPagerAdapter = FragmentPagerAdapterBuilder(this)
             .add(ExplorerFragment(), R.string.text_file)
-            .add(DocumentationFragment(), R.string.text_documentation)
-            .add(TaskManagerFragment(), R.string.text_task)
             .build()
             .apply {
                 setOnFragmentInstantiateListener { pos: Int, fragment: Fragment ->
@@ -359,7 +355,6 @@ class MainActivity : BaseActivity(), DelegateHost, HostActivity {
             return
         }
         if (!mBackPressObserver.onBackPressed(this)) {
-            @Suppress("DEPRECATION")
             super.onBackPressed()
         }
     }
