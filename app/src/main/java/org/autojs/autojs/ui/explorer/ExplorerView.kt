@@ -662,7 +662,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
             mInstall.setOnClickListener { withItemSelected { install() } }
 
             mOptions = explorerFileBinding.more
-            mOptions.setOnClickListener { withItemSelected { showOptionsMenu() } }
 
             explorerFileBinding.item.setOnClickListener { withItemSelected { onItemClick() } }
         }
@@ -801,7 +800,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
                 menu.removeItem(R.id.action_build_apk)
             }
             if (!mExplorerItem.canSetAsWorkingDir()) {
-                menu.removeItem(R.id.action_set_as_working_dir)
             }
             val samplePath = PFile(context.filesDir, WorkspaceFileProvider.SAMPLE_PATH).path
             if (!(mExplorerItem.path.startsWith(samplePath))) {
@@ -826,9 +824,7 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
         private var mName = binding.name
         private var mDirDate = binding.scriptDirDate
         private var mIcon = binding.icon
-        private var mOptions = binding.more.also {
-            it.setOnClickListener { withItemSelected { showOptionsMenu() } }
-        }
+        private var mOptions = binding.more
 
         private var mExplorerPage: ExplorerPage? = null
 
@@ -843,46 +839,6 @@ open class ExplorerView : ThemeColorSwipeRefreshLayout, SwipeRefreshLayout.OnRef
 
         private fun onItemClick() {
             mExplorerPage?.let { enterDirectChildPage(it) }
-        }
-
-        private fun showOptionsMenu() {
-            val popupMenu = PopupMenu(context, mOptions)
-            val menu = popupMenu.menu
-            popupMenu.inflate(R.menu.menu_dir_options)
-            if (!mExplorerPage!!.canRename()) {
-                menu.removeItem(R.id.action_rename)
-            }
-            if (!mExplorerPage!!.canDelete()) {
-                menu.removeItem(R.id.action_delete)
-            }
-            if (!mExplorerPage!!.canSetAsWorkingDir()) {
-                menu.removeItem(R.id.action_set_as_working_dir)
-            }
-            if (!mExplorerPage!!.canBuildApk()) {
-                menu.removeItem(R.id.action_build_apk)
-            }
-            popupMenu.setOnMenuItemClickListener { item: MenuItem ->
-                when (item.itemId) {
-                    R.id.action_rename -> {
-                        ScriptOperations(context, this@ExplorerView, currentPage)
-                            .rename(selectedItem as ExplorerFileItem?)
-                            .subscribe(Observers.emptyObserver())
-                    }
-                    R.id.action_delete -> {
-                        ScriptOperations(context, this@ExplorerView, currentPage)
-                            .delete(selectedItem!!.toScriptFile())
-                    }
-                    R.id.action_set_as_working_dir -> {
-                        ScriptOperations(context, this@ExplorerView, currentPage)
-                            .setAsWorkingDir(selectedItem!!.toScriptFile())
-                    }
-                    R.id.action_build_apk -> {
-                        BuildActivity.launch(context, selectedItem!!.path)
-                    }
-                    else -> null
-                } != null
-            }
-            popupMenu.show()
         }
 
         private fun <R> withItemSelected(func: () -> R): R {
