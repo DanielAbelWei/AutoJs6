@@ -38,3 +38,4 @@ sync.ffs_db
 
 **/assets-app/declarations/
 **/assets-app/sample/declarations/
+modules/jieba-analysis/build/*
