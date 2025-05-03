@@ -18,7 +18,7 @@
     <string name="color_library_identifier_android_colors" translatable="false">Android</string>
     <string name="color_library_identifier_css_colors" translatable="false">CSS</string>
     <string name="color_library_identifier_web_colors" translatable="false">WEB</string>
-    <string name="com_twofortyfouram_log_tag" tools:ignore="ResourceName" translatable="false" />
+    <string name="com_twofortyfouram_log_tag" translatable="false" tools:ignore="ResourceName" />
     <string name="default_build_apk_version_code" translatable="false">1</string>
     <string name="default_build_apk_version_name" translatable="false">1.0.0</string>
     <string name="default_key_editor_pinch_to_zoom_strategy" translatable="false">@string/key_editor_pinch_to_zoom_change_text_size</string>
@@ -208,7 +208,7 @@
     <string name="text_device_imei" translatable="false">IMEI</string>
     <string name="text_en_import" translatable="false">import</string>
     <string name="text_full_version_info" translatable="false">%1$s (%2$d)</string>
-    <string name="text_half_ellipsis" translatable="false" formatted="true">...</string>
+    <string name="text_half_ellipsis" formatted="true" translatable="false">...</string>
     <string name="text_jks" translatable="false">JKS</string>
     <string name="text_powered_by_autojs" translatable="false">Powered by AutoJs6</string>
     <string name="text_root" translatable="false">Root</string>

@@ -11,6 +11,7 @@ import android.os.Looper
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
+import com.xsjplay.android.body.XsjBodyFragment
 import org.autojs.autojs.app.FragmentPagerAdapterBuilder.StoredFragmentPagerAdapter
 import org.autojs.autojs.app.OnActivityResultDelegate
 import org.autojs.autojs.app.OnActivityResultDelegate.DelegateHost
@@ -73,6 +74,16 @@ class MainActivity : BaseActivity(), DelegateHost, HostActivity {
             setUpToolbar()
             // setUpTabViewPager(it)
             // registerBackPressHandlers(drawerLayout)
+
+            // supportFragmentManager.commit {
+            //     setReorderingAllowed(true)
+            //     add(mainJs.id, XsjBodyFragment())
+            // }
+
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_main_js, XsjBodyFragment())
+                .commit()
+
         }
 
         Pref.registerOnSharedPreferenceChangeListener { _, key ->
