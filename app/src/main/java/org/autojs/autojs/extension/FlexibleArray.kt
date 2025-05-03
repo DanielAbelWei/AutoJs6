@@ -4,8 +4,8 @@ import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.runtime.exception.WrappedIllegalArgumentException
 import org.autojs.autojs.util.RhinoUtils
 import org.autojs.autojs.util.RhinoUtils.UNDEFINED
-import org.autojs.autojs6.R.plurals as R_plurals
-import org.autojs.autojs6.R.string as R_string
+import com.xsjplay.android.R.plurals as R_plurals
+import com.xsjplay.android.R.string as R_string
 
 open class FlexibleArray {
 

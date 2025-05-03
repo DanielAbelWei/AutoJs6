@@ -19,7 +19,7 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import org.autojs.autojs.theme.internal.ScrollingViewEdgeGlowColorHelper;
 import org.autojs.autojs.util.ColorUtils;
 import org.autojs.autojs.util.ViewUtils;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 /**
  * Created by Stardust on Oct 24, 2016.

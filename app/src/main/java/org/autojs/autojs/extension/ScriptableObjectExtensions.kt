@@ -3,7 +3,7 @@ package org.autojs.autojs.extension
 import org.autojs.autojs.extension.AnyExtensions.isJsNullish
 import org.autojs.autojs.extension.ScriptableExtensions.prop
 import org.autojs.autojs.util.StringUtils.str
-import org.autojs.autojs6.R.string as R_string
+import com.xsjplay.android.R.string as R_string
 import org.mozilla.javascript.ScriptableObject
 
 /**

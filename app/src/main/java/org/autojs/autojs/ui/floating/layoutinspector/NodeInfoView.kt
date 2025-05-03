@@ -15,9 +15,9 @@ import org.autojs.autojs.core.accessibility.NodeInfo
 import org.autojs.autojs.extension.NumberExtensions.jsString
 import org.autojs.autojs.util.ClipboardUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.NodeInfoViewHeaderBinding
-import org.autojs.autojs6.databinding.NodeInfoViewItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.NodeInfoViewHeaderBinding
+import com.xsjplay.android.databinding.NodeInfoViewItemBinding
 import org.opencv.core.Point
 import java.lang.reflect.Field
 import kotlin.math.ceil

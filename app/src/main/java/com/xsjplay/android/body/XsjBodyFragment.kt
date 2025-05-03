@@ -1,6 +1,7 @@
 package com.xsjplay.android.body
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,7 +20,7 @@ import org.autojs.autojs.ui.widget.FirstCharView
 import org.autojs.autojs.util.ColorUtils
 import org.autojs.autojs.util.FileUtils
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.io.File
 
 class XsjBodyFragment : Fragment() {
@@ -73,8 +74,7 @@ class XsjBodyFragment : Fragment() {
 
             updateVisibility(mRun, true)
             updateVisibility(mStop, true)
-
-
+            writeMainJs()
         }
     }
 
@@ -116,4 +116,75 @@ class XsjBodyFragment : Fragment() {
             view.visibility = visibility
         }
     }
+
+    private fun writeMainJs() {
+        val dir = File(requireContext().filesDir, "sample/Main")
+        if (!dir.exists()) {
+            dir.mkdirs() // 创建多级目录
+        }
+
+        val newFile = File(dir, "main.js")
+        newFile.writeText("const CMD_FILE = \"command.json\";\n" +
+                "const CMD_DIR = \"/sdcard/yunGateway/\";\n" +
+                "\n" +
+                "\n" +
+                "// 显示控制台（防止被回收）\n" +
+                "console.show();\n" +
+                "console.log(\"文件监听服务已启动命令文件: \" + CMD_FILE);\n" +
+                "\n" +
+                "//设置主main引擎\n" +
+                "const mainEngine = engines.myEngine();\n" +
+                "const mainEngineId = mainEngine.id;\n" +
+                "\n" +
+                "let cmdId = 0\n" +
+                "let cmdTime = 0\n" +
+                "\n" +
+                "function initializeMainEngine(){\n" +
+                "    engines.all().forEach(engine => {\n" +
+                "        let scriptPath = engine.getSource() + ''; // 转为字符串路径\n" +
+                "        // 如果不是main.js且不是自己，则停止\n" +
+                "        if (engine.id !== mainEngineId) {\n" +
+                "            console.log(\"开始停止脚本:\", scriptPath);\n" +
+                "            engine.forceStop(); // 强制停止\n" +
+                "        }});\n" +
+                "}\n" +
+                "\n" +
+                "// 主监听循环\n" +
+                "setInterval(() => {\n" +
+                "    let cmdFile = CMD_DIR + CMD_FILE\n" +
+                "    if (!files.exists(cmdFile)) return;\n" +
+                "    let rawData = files.read(cmdFile);\n" +
+                "    if (!rawData) return;\n" +
+                "    let cmd = JSON.parse(rawData.trim());\n" +
+                "    cmdId = cmd.id\n" +
+                "    let nextCmdTime = cmd.cmdTime\n" +
+                "    let action = cmd.action\n" +
+                "    let script = cmd.script\n" +
+                "    if (nextCmdTime === cmdTime) return;\n" +
+                "\n" +
+                "    if (action === \"run\"){\n" +
+                "        let cmdScript = CMD_DIR + script\n" +
+                "        let func = cmd.function;\n" +
+                "        let deviceId = cmd.deviceId;\n" +
+                "        let config = cmd.config\n" +
+                "        cmdTime = nextCmdTime\n" +
+                "        initializeMainEngine()\n" +
+                "        sleep(3000)\n" +
+                "        let runningEngine = engines.execScriptFile(cmdScript)\n" +
+                "        sleep(2000)\n" +
+                "        console.log(\"开始启动指令:\"+ func);\n" +
+                "        let params = cmdId+\":\" + deviceId + \":\" + func+\":\" + config\n" +
+                "        runningEngine.getEngine().emit(\"subTasks\", params);\n" +
+                "        //清空命令文件，等待下次接受\n" +
+                "        files.write(cmdFile, \"\");\n" +
+                "    }else if (action === \"stopAction\"){\n" +
+                "        initializeMainEngine()\n" +
+                "    }\n" +
+                "\n" +
+                "}, 10000); // 每10秒检查一次\n" +
+                "\n" +
+                "// 保持脚本运行的保活机制\n" +
+                "setInterval(() => {}, 1000);")
+    }
+
 }

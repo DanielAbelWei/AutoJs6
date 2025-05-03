@@ -8,7 +8,7 @@ import androidx.preference.Preference.SummaryProvider
 import com.afollestad.materialdialogs.MaterialDialog
 import org.autojs.autojs.core.pref.Pref
 import org.autojs.autojs.ui.common.NotAskAgainDialog
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 open class MaterialListPreference : MaterialDialogPreference {
 

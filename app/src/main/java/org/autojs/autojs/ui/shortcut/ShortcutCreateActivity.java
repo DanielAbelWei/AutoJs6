@@ -27,8 +27,8 @@ import org.autojs.autojs.external.shortcut.ShortcutActivity;
 import org.autojs.autojs.model.script.ScriptFile;
 import org.autojs.autojs.util.BitmapUtils;
 import org.autojs.autojs.util.ShortcutUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ShortcutCreateDialogBinding;
+import com.xsjplay.android.R;
+import com.xsjplay.android.databinding.ShortcutCreateDialogBinding;
 
 /**
  * Created by Stardust on Oct 25, 2017.

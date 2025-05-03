@@ -8,7 +8,7 @@ import android.os.IBinder
 import org.autojs.autojs.tool.ForegroundServiceCreator
 import org.autojs.autojs.ui.main.MainActivity
 import org.autojs.autojs.util.ForegroundServiceUtils.FOREGROUND_SERVICE_TYPE_UNKNOWN
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Modified by SuperMonster003 as of Apr 10, 2022.

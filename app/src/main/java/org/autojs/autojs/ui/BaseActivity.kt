@@ -17,7 +17,7 @@ import org.autojs.autojs.theme.ThemeChangeNotifier
 import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.util.LocaleUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by Stardust on Jan 23, 2017.

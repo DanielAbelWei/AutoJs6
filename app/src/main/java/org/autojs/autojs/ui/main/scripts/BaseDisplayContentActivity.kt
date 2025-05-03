@@ -26,8 +26,8 @@ import kotlinx.coroutines.sync.withLock
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.DisplayUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityDisplayScrollableContentBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityDisplayScrollableContentBinding
 import kotlin.math.floor
 
 abstract class BaseDisplayContentActivity : BaseActivity() {

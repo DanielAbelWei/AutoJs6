@@ -5,7 +5,7 @@ import android.view.accessibility.AccessibilityWindowInfo
 import org.autojs.autojs.extension.ArrayExtensions.toHashCode
 import org.autojs.autojs.util.ObjectUtils
 import org.autojs.autojs.util.StringUtils.str
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by SuperMonster003 on May 18, 2024.

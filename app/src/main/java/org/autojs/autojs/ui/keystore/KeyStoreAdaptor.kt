@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import org.autojs.autojs.apkbuilder.keystore.KeyStore
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ItemKeyStoreBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ItemKeyStoreBinding
 
 class KeyStoreAdaptor(
     private val keyStoreAdapterCallback: KeyStoreAdapterCallback,

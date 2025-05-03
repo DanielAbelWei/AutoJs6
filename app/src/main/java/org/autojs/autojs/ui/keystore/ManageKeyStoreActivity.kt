@@ -24,8 +24,8 @@ import org.autojs.autojs.ui.keystore.NewKeyStoreDialog.NewKeyStoreConfigs
 import org.autojs.autojs.ui.viewmodel.KeyStoreViewModel
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByThemeColorLuminance
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityManageKeyStoreBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityManageKeyStoreBinding
 import java.io.File
 import java.io.IOException
 

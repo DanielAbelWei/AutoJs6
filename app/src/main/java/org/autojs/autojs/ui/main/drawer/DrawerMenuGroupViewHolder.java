@@ -3,7 +3,7 @@ package org.autojs.autojs.ui.main.drawer;
 import android.view.View;
 import android.widget.TextView;
 
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
 
 /**

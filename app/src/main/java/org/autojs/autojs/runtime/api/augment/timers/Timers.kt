@@ -11,7 +11,7 @@ import org.autojs.autojs.util.RhinoUtils.UNDEFINED
 import org.autojs.autojs.util.RhinoUtils.coerceFunction
 import org.autojs.autojs.util.RhinoUtils.coerceLongNumber
 import org.autojs.autojs.util.RhinoUtils.coerceNumber
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import org.mozilla.javascript.BaseFunction
 import org.mozilla.javascript.Undefined
 

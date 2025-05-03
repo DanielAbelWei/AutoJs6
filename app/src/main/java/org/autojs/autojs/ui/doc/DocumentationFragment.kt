@@ -17,8 +17,8 @@ import org.autojs.autojs.ui.main.ViewStatesManageable
 import org.autojs.autojs.util.DocsUtils.getUrl
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.WebViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FragmentOnlineDocsBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.FragmentOnlineDocsBinding
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 

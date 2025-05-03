@@ -45,8 +45,8 @@ import org.autojs.autojs.tool.MapBuilder
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityTimedTaskSettingBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityTimedTaskSettingBinding
 import org.joda.time.LocalDate
 import org.joda.time.LocalDateTime
 import org.joda.time.LocalTime

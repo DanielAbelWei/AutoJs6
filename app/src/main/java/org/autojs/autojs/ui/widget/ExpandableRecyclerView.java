@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 /**
  * Created by Stardust on Feb 4, 2017.

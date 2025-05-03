@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Window;
 import com.afollestad.materialdialogs.MaterialDialog;
 import org.autojs.autojs.ui.BaseActivity;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 /**
  * A simple activity to show error dialogs when a context is not available or valid

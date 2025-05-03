@@ -8,7 +8,7 @@ import org.autojs.autojs.core.pref.Language
 import org.autojs.autojs.tool.Func1
 import org.autojs.autojs.util.EnvironmentUtils
 import org.autojs.autojs.util.FileUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.io.Closeable
 import java.io.File
 import java.io.File.separator

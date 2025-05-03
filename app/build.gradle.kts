@@ -14,7 +14,7 @@ import java.util.TimeZone
 import java.util.zip.CRC32
 import kotlin.text.RegexOption.IGNORE_CASE
 
-val globalApplicationId = "org.autojs.autojs6"
+val globalApplicationId = "com.xsjplay.android"
 
 val sign = Sign("$rootDir/sign.properties")
 val versions = Versions("$rootDir/version.properties")
@@ -450,8 +450,8 @@ android {
                     "appName" to "@string/app_name",
                     "intentCategory" to "android.intent.category.LAUNCHER",
                     "intentCategoryInrt" to "android.intent.category.DEFAULT",
-                    "authorities" to "org.autojs.autojs6.fileprovider",
-                    "icon" to "@drawable/autojs6_material",
+                    "authorities" to "com.xsjplay.android.fileprovider",
+                    "icon" to "@mipmap/ic_launcher",
                 )
             )
         }
@@ -474,7 +474,7 @@ android {
                     "appName" to "AutoJs6.$flavorNameInrt",
                     "intentCategory" to "android.intent.category.DEFAULT",
                     "intentCategoryInrt" to "android.intent.category.LAUNCHER",
-                    "authorities" to "org.autojs.autojs6.$flavorNameInrt.fileprovider",
+                    "authorities" to "com.xsjplay.android.$flavorNameInrt.fileprovider",
                     "icon" to "@mipmap/ic_launcher",
                 )
             )

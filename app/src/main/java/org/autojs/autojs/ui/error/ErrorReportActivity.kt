@@ -12,9 +12,9 @@ import com.afollestad.materialdialogs.MaterialDialog
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityErrorReportBinding
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityErrorReportBinding
 import java.util.*
 
 /**

@@ -9,8 +9,8 @@ import org.autojs.autojs.core.console.ConsoleImpl
 import org.autojs.autojs.inrt.autojs.AutoJs
 import org.autojs.autojs.inrt.launch.GlobalProjectLauncher
 import org.autojs.autojs.ui.BaseActivity
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityMainInrtBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityMainInrtBinding
 
 class LogActivity : BaseActivity() {
 

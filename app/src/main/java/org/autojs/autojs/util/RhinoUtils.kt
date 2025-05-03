@@ -17,7 +17,7 @@ import org.autojs.autojs.extension.ScriptableExtensions.prop
 import org.autojs.autojs.rhino.TopLevelScope
 import org.autojs.autojs.runtime.ScriptRuntime
 import org.autojs.autojs.runtime.exception.ScriptInterruptedException
-import org.autojs.autojs6.BuildConfig
+import com.xsjplay.android.BuildConfig
 import org.mozilla.javascript.AbstractEcmaObjectOperations
 import org.mozilla.javascript.BaseFunction
 import org.mozilla.javascript.BoundFunction

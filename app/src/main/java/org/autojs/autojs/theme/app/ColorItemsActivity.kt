@@ -33,8 +33,8 @@ import org.autojs.autojs.util.ColorUtils
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.onceGlobalLayout
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByColorLuminance
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.MtActivityColorItemsBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.MtActivityColorItemsBinding
 import kotlin.properties.Delegates
 import androidx.core.graphics.ColorUtils as AndroidColorUtils
 

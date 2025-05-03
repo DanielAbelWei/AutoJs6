@@ -39,7 +39,7 @@ import org.autojs.autojs.util.RhinoUtils.undefined
 import org.autojs.autojs.util.RhinoUtils.withRhinoContext
 import org.autojs.autojs.util.StringUtils.lowercaseFirstChar
 import org.autojs.autojs.util.StringUtils.uppercaseFirstChar
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import org.mozilla.javascript.*
 
 @Suppress("unused", "UNUSED_PARAMETER")

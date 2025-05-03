@@ -39,8 +39,8 @@ import org.autojs.autojs.util.RhinoUtils.newBaseFunction
 import org.autojs.autojs.util.RhinoUtils.newNativeObject
 import org.autojs.autojs.util.RhinoUtils.undefined
 import org.autojs.autojs.util.StringUtils.str
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
 import org.mozilla.javascript.BaseFunction
 import org.mozilla.javascript.NativeObject
 import org.mozilla.javascript.ScriptableObject

@@ -14,7 +14,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import org.autojs.autojs.app.GlobalAppContext
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by SuperMonster003 on Mar 10, 2023.

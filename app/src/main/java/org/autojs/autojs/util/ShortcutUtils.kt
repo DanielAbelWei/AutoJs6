@@ -10,7 +10,7 @@ import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import com.afollestad.materialdialogs.MaterialDialog
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by SuperMonster003 on Oct 11, 2022.

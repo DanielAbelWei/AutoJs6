@@ -30,7 +30,7 @@ import org.autojs.autojs.core.pref.Language;
 import org.autojs.autojs.runtime.ScriptRuntime;
 import org.autojs.autojs.runtime.exception.ScriptException;
 import org.autojs.autojs.tool.MapBuilder;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 import org.mozilla.javascript.BaseFunction;
 
 import java.util.HashSet;

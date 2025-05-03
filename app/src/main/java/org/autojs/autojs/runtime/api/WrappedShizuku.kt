@@ -15,7 +15,7 @@ import org.autojs.autojs.core.shizuku.IUserService
 import org.autojs.autojs.core.shizuku.UserService
 import org.autojs.autojs.util.App.SHIZUKU
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import rikka.shizuku.Shizuku
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit

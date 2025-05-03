@@ -11,7 +11,7 @@ import org.autojs.autojs.pluginclient.JsonSocketClient
 import org.autojs.autojs.ui.main.drawer.DrawerMenuDisposableItem
 import org.autojs.autojs.util.Observers
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 class JsonSocketClientTool(context: Context) : AbstractJsonSocketTool(context) {
 

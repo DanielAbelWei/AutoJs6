@@ -9,7 +9,7 @@ import org.autojs.autojs.core.pref.Pref.getBoolean
 import org.autojs.autojs.core.pref.Pref.putBoolean
 import org.autojs.autojs.util.StringUtils.key
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.io.IOException
 import java.net.ServerSocket
 import java.net.Socket

@@ -19,8 +19,8 @@ import org.autojs.autojs.extension.MaterialDialogExtensions.makeTextCopyable
 import org.autojs.autojs.extension.MaterialDialogExtensions.setCopyableText
 import org.autojs.autojs.model.explorer.ExplorerItem
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.MediaFileInfoDialogListItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.MediaFileInfoDialogListItemBinding
 import org.mediainfo.android.MediaInfo
 import org.mediainfo.android.MediaInfo.StreamKind.AUDIO
 import org.mediainfo.android.MediaInfo.StreamKind.GENERAL

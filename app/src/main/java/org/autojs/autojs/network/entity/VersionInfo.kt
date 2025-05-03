@@ -3,8 +3,8 @@ package org.autojs.autojs.network.entity
 import android.util.Log
 import org.autojs.autojs.util.StringUtils.str
 import org.autojs.autojs.util.UpdateUtils.isVersionIgnored
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
 import kotlin.math.roundToInt
 
 /**

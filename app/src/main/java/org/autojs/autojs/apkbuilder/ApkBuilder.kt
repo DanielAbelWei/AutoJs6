@@ -23,7 +23,7 @@ import org.autojs.autojs.script.EncryptedScriptFileHeader.writeHeader
 import org.autojs.autojs.script.JavaScriptFileSource
 import org.autojs.autojs.util.FileUtils.TYPE.JAVASCRIPT
 import org.autojs.autojs.util.MD5Utils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import pxb.android.StringItem
 import pxb.android.axml.AxmlWriter
 import zhao.arsceditor.ResDecoder.ARSCDecoder
@@ -439,7 +439,7 @@ open class ApkBuilder(apkInputStream: InputStream?, private val outApkFile: File
         const val LIBRARY_DIR = "lib"
 
         const val TEMPLATE_APK_NAME = "template.apk"
-        const val INRT_APP_ID = "org.autojs.autojs6.inrt"
+        const val INRT_APP_ID = "com.xsjplay.android.inrt"
 
         private val TAG = ApkBuilder::class.java.simpleName
 

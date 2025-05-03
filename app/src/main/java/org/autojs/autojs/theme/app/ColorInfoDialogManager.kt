@@ -17,8 +17,8 @@ import org.autojs.autojs.extension.MaterialDialogExtensions.makeTextCopyable
 import org.autojs.autojs.extension.MaterialDialogExtensions.setCopyableText
 import org.autojs.autojs.runtime.api.augment.colors.Colors
 import org.autojs.autojs.util.ColorUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ColorInfoDialogListItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ColorInfoDialogListItemBinding
 
 object ColorInfoDialogManager {
 

@@ -24,7 +24,7 @@ import org.autojs.autojs.util.RhinoUtils.isMainThread
 import org.autojs.autojs.util.RhinoUtils.isUiThread
 import org.autojs.autojs.util.RhinoUtils.newBaseFunction
 import org.autojs.autojs.util.ViewUtils.setViewMeasure
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.util.concurrent.CopyOnWriteArraySet
 
 /**

@@ -42,7 +42,7 @@ import org.autojs.autojs.util.EnvironmentUtils;
 import org.autojs.autojs.util.ShortcutUtils;
 import org.autojs.autojs.util.ViewUtils;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 import org.reactivestreams.Publisher;
 
 import java.io.File;

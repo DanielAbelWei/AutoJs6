@@ -34,8 +34,8 @@ import org.autojs.autojs.tool.CrashHandler
 import org.autojs.autojs.ui.error.ErrorReportActivity
 import org.autojs.autojs.ui.floating.FloatyWindowManger
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
 import org.greenrobot.eventbus.EventBus
 import java.lang.ref.WeakReference
 import java.lang.reflect.Method

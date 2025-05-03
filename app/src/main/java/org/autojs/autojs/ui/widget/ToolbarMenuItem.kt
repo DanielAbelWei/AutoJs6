@@ -10,8 +10,8 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.util.DrawableUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ToolbarMenuItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ToolbarMenuItemBinding
 
 /**
  * Created by Stardust on Jan 29, 2017.

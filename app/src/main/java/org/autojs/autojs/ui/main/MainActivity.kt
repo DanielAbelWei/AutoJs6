@@ -66,8 +66,8 @@ import org.autojs.autojs.util.ViewUtils.onceGlobalLayout
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByThemeColorLuminance
 import org.autojs.autojs.util.ViewUtils.setNavigationIconColorByThemeColorLuminance
 import org.autojs.autojs.util.WorkingDirectoryUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityMainBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityMainBinding
 import org.greenrobot.eventbus.EventBus
 
 /**

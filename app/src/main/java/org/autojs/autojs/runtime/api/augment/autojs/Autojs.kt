@@ -12,7 +12,7 @@ import org.mozilla.javascript.NativeObject
 import org.mozilla.javascript.Scriptable
 import java.util.function.Supplier
 import android.Manifest
-import org.autojs.autojs6.BuildConfig
+import com.xsjplay.android.BuildConfig
 import android.content.pm.PackageManager
 import org.autojs.autojs.util.RootUtils
 import org.autojs.autojs.util.RootUtils.RootMode
@@ -30,7 +30,7 @@ import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.util.RhinoUtils.UNDEFINED
 import org.autojs.autojs.util.RhinoUtils.coerceIntNumber
 import org.autojs.autojs.util.RhinoUtils.newNativeObject
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.Undefined
 import java.util.*

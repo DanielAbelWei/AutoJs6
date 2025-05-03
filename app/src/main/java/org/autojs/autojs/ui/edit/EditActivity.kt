@@ -34,8 +34,8 @@ import org.autojs.autojs.ui.main.MainActivity
 import org.autojs.autojs.util.Observers
 import org.autojs.autojs.util.ViewUtils.onceGlobalLayout
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByThemeColorLuminance
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityEditBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityEditBinding
 import java.io.File
 import java.io.IOException
 

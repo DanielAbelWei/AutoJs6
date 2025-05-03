@@ -7,7 +7,7 @@ import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.DocsUtils.getUrl
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.WebViewUtils
-import org.autojs.autojs6.databinding.ActivityDocumentationBinding
+import com.xsjplay.android.databinding.ActivityDocumentationBinding
 
 /**
  * Created by Stardust on Oct 24, 2017.

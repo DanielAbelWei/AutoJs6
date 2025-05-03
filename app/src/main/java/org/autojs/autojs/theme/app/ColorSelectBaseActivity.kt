@@ -51,8 +51,8 @@ import org.autojs.autojs.util.ViewUtils.setColorsByColorLuminance
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByColorLuminance
 import org.autojs.autojs.util.ViewUtils.setNavigationIconColorByColorLuminance
 import org.autojs.autojs.util.ViewUtils.setTitlesTextColorByColorLuminance
-import org.autojs.autojs6.R
-import org.autojs.autojs6.R.string.text_search_color
+import com.xsjplay.android.R
+import com.xsjplay.android.R.string.text_search_color
 import org.greenrobot.eventbus.EventBus
 import java.util.*
 import kotlin.math.hypot

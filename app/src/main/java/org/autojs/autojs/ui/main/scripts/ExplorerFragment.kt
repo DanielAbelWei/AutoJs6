@@ -30,8 +30,8 @@ import org.autojs.autojs.ui.project.ProjectConfigActivity
 import org.autojs.autojs.ui.widget.ScrollAwareFABBehavior
 import org.autojs.autojs.util.IntentUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FragmentExplorerBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.FragmentExplorerBinding
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 

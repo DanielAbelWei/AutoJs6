@@ -32,9 +32,9 @@ import org.autojs.autojs.timing.TimedTaskManager;
 import org.autojs.autojs.ui.timing.TimedTaskSettingActivity;
 import org.autojs.autojs.util.ColorUtils;
 import org.autojs.autojs.util.FileUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ExplorerFirstCharIconBinding;
-import org.autojs.autojs6.databinding.TaskListRecyclerViewItemBinding;
+import com.xsjplay.android.R;
+import com.xsjplay.android.databinding.ExplorerFirstCharIconBinding;
+import com.xsjplay.android.databinding.TaskListRecyclerViewItemBinding;
 
 import java.util.ArrayList;
 import java.util.List;

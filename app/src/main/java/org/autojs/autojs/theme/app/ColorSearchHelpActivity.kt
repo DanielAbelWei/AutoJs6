@@ -6,8 +6,8 @@ import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.ui.widget.CommonMarkdownView
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.WebViewUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityColorSearchHelpBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityColorSearchHelpBinding
 
 class ColorSearchHelpActivity : BaseActivity() {
 

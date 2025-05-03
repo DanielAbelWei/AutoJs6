@@ -19,7 +19,7 @@ import org.autojs.autojs.core.pref.Pref.lastUpdatesAutoCheckedTimestamp
 import org.autojs.autojs.core.pref.Pref.lastUpdatesPostponedTimestamp
 import org.autojs.autojs.core.pref.Pref.refreshLastUpdatesAutoCheckedTimestamp
 import org.autojs.autojs.tool.SimpleObserver
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by SuperMonster003 on May 29, 2022.

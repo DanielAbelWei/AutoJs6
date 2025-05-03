@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.theme.app.ColorLibrariesActivity.Companion.PresetColorLibrary
 import org.autojs.autojs.util.ColorUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.MtColorLibrariesRecyclerViewItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.MtColorLibrariesRecyclerViewItemBinding
 
 class ColorLibraryViewHolder(itemViewBinding: MtColorLibrariesRecyclerViewItemBinding) : RecyclerView.ViewHolder(itemViewBinding.root) {
 

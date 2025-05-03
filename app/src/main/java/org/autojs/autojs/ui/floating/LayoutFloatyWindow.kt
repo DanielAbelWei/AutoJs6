@@ -19,7 +19,7 @@ import org.autojs.autojs.ui.floating.layoutinspector.LayoutBoundsFloatyWindow
 import org.autojs.autojs.ui.floating.layoutinspector.LayoutHierarchyFloatyWindow
 import org.autojs.autojs.ui.floating.layoutinspector.NodeInfoView
 import org.autojs.autojs.ui.widget.BubblePopupMenu
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import kotlin.reflect.KFunction0
 
 abstract class LayoutFloatyWindow(

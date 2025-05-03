@@ -12,8 +12,8 @@ import org.autojs.autojs.runtime.api.Mime
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityLogBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityLogBinding
 
 class LogActivity : BaseActivity() {
 

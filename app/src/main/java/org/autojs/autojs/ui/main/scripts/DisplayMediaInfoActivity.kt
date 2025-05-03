@@ -5,7 +5,7 @@ import android.content.Intent
 import io.noties.prism4j.GrammarLocator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 class DisplayMediaInfoActivity : BaseDisplayContentActivity() {
 

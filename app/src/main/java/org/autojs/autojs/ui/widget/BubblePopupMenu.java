@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 import java.util.List;
 

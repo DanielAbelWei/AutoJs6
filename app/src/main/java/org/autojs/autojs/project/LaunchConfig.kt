@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 import org.autojs.autojs.annotation.SerializedNameCompatible
 import org.autojs.autojs.annotation.SerializedNameCompatible.With
 import org.autojs.autojs.app.GlobalAppContext
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by Stardust on Jan 25, 2018.

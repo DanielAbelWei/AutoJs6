@@ -17,11 +17,11 @@ import org.autojs.autojs.util.ClipboardUtils
 import org.autojs.autojs.util.DeviceUtils
 import org.autojs.autojs.util.UpdateUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityAboutBinding
-import org.autojs.autojs6.databinding.ActivityAboutFunctionButtonsBinding
-import org.autojs.autojs6.databinding.ActivityAboutItemsBinding
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityAboutBinding
+import com.xsjplay.android.databinding.ActivityAboutFunctionButtonsBinding
+import com.xsjplay.android.databinding.ActivityAboutItemsBinding
 
 /**
  * Created by Stardust on Feb 2, 2017.

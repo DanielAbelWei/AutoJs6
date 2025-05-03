@@ -8,7 +8,7 @@ import android.provider.Settings
 import androidx.core.content.FileProvider
 import org.autojs.autojs.external.fileprovider.AppFileProvider
 import org.autojs.autojs.runtime.api.Mime
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.io.File
 
 object IntentUtils {

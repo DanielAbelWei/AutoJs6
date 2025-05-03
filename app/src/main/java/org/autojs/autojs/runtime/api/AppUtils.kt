@@ -24,7 +24,7 @@ import org.autojs.autojs.ui.settings.AboutActivity
 import org.autojs.autojs.ui.settings.PreferencesActivity
 import org.autojs.autojs.util.App
 import org.autojs.autojs.util.IntentUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.lang.ref.WeakReference
 import java.net.URI
 import org.autojs.autojs.runtime.api.augment.app.App as AugmentableApp

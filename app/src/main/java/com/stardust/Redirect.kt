@@ -2,8 +2,8 @@
 
 package com.stardust
 
-import org.autojs.autojs6.R as AutoJs6R
-import org.autojs.autojs6.BuildConfig as AutoJs6BuildConfig
+import com.xsjplay.android.R as AutoJs6R
+import com.xsjplay.android.BuildConfig as AutoJs6BuildConfig
 
 object R {
 

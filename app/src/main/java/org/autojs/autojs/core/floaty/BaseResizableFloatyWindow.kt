@@ -18,8 +18,8 @@ import org.autojs.autojs.ui.enhancedfloaty.WindowBridge
 import org.autojs.autojs.ui.enhancedfloaty.WindowBridge.DefaultImpl
 import org.autojs.autojs.ui.enhancedfloaty.gesture.DragGesture
 import org.autojs.autojs.ui.enhancedfloaty.gesture.ResizeGesture
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FloatyWindowBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.FloatyWindowBinding
 
 /**
  * Created by Stardust on Dec 5, 2017.

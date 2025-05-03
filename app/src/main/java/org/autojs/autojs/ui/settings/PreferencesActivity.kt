@@ -6,8 +6,8 @@ import android.os.Bundle
 import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.ui.BaseActivity
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityPreferencesBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityPreferencesBinding
 
 /**
  * Created by Stardust on Feb 2, 2017.

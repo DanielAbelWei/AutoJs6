@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.CheckBox
 import android.widget.LinearLayout
 import android.widget.TextView
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by SuperMonster003 on Nov 24, 2023.

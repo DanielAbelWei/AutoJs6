@@ -54,8 +54,8 @@ import org.autojs.autojs.util.EnvironmentUtils;
 import org.autojs.autojs.util.IntentUtils;
 import org.autojs.autojs.util.ViewUtils;
 import org.autojs.autojs.util.WorkingDirectoryUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ActivityBuildBinding;
+import com.xsjplay.android.R;
+import com.xsjplay.android.databinding.ActivityBuildBinding;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;

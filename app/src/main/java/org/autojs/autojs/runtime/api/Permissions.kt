@@ -9,7 +9,7 @@ import androidx.activity.result.contract.ActivityResultContracts.RequestMultiple
 import androidx.fragment.app.FragmentActivity
 import org.autojs.autojs.core.pref.Pref
 import org.autojs.autojs.util.RomUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 class Permissions(private val context: Context) {
 

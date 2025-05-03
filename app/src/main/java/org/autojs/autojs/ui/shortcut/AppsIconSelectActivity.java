@@ -25,8 +25,8 @@ import org.autojs.autojs.groundwork.WrapContentGridLayoutManger;
 import org.autojs.autojs.runtime.api.Mime;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.util.ViewUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ActivityAppsIconSelectBinding;
+import com.xsjplay.android.R;
+import com.xsjplay.android.databinding.ActivityAppsIconSelectBinding;
 
 import java.util.ArrayList;
 import java.util.List;

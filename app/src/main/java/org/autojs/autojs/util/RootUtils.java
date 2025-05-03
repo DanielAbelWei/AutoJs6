@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import com.stericson.RootShell.RootShell;
 
 import org.autojs.autojs.core.pref.Pref;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 import java.text.MessageFormat;
 

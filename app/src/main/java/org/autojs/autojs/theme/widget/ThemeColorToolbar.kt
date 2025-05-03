@@ -9,7 +9,7 @@ import org.autojs.autojs.theme.ThemeColorMutable
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.applyColorFilterWith
 import org.autojs.autojs.util.ViewUtils.onceGlobalLayout
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 /**
  * Created by Stardust on Mar 5, 2017.

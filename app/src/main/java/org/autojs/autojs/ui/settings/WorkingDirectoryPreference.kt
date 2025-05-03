@@ -26,7 +26,7 @@ import org.autojs.autojs.ui.main.MainActivity
 import org.autojs.autojs.util.EnvironmentUtils
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.WorkingDirectoryUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.io.File
 
 class WorkingDirectoryPreference : MaterialPreference {

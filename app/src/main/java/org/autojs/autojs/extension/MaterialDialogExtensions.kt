@@ -6,7 +6,7 @@ import com.afollestad.materialdialogs.MaterialDialog
 import org.autojs.autojs.util.ClipboardUtils
 import org.autojs.autojs.util.IntentUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 object MaterialDialogExtensions {
 

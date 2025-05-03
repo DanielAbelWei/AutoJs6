@@ -73,8 +73,8 @@ import org.autojs.autojs.util.DocsUtils.getUrl
 import org.autojs.autojs.util.Observers
 import org.autojs.autojs.util.ViewUtils.showSnack
 import org.autojs.autojs.util.ViewUtils.showToast
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.EditorViewBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.EditorViewBinding
 import java.io.File
 
 /**

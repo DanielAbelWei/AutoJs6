@@ -13,8 +13,8 @@ import org.autojs.autojs.theme.app.ColorSelectBaseActivity.Companion.SELECT_NONE
 import org.autojs.autojs.theme.app.ColorSelectBaseActivity.Companion.saveDatabaseForColorHistories
 import org.autojs.autojs.theme.app.ColorSelectBaseActivity.Companion.savePrefsForLegacy
 import org.autojs.autojs.theme.app.ColorSelectBaseActivity.Companion.savePrefsForLibraries
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.MtColorLibraryRecyclerViewItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.MtColorLibraryRecyclerViewItemBinding
 
 @SuppressLint("NotifyDataSetChanged")
 class ColorItemAdapter(

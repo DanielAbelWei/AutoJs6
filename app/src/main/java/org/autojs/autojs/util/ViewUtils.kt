@@ -46,7 +46,7 @@ import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.core.pref.Pref
 import org.autojs.autojs.theme.ThemeColorManager
 import org.autojs.autojs.util.StringUtils.key
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import kotlin.math.roundToInt
 import androidx.core.view.size
 import androidx.core.view.get

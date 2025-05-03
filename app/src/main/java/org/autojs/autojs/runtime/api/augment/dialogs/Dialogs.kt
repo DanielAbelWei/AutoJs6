@@ -36,7 +36,7 @@ import org.autojs.autojs.util.RhinoUtils.js_eval
 import org.autojs.autojs.util.RhinoUtils.newBaseFunction
 import org.autojs.autojs.util.RhinoUtils.newNativeObject
 import org.autojs.autojs.util.StringUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import org.mozilla.javascript.BaseFunction
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.NativeArray

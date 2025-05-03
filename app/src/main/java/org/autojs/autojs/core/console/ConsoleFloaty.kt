@@ -22,9 +22,9 @@ import org.autojs.autojs.ui.enhancedfloaty.ResizableExpandableFloaty.AbstractRes
 import org.autojs.autojs.ui.enhancedfloaty.ResizableExpandableFloatyWindow
 import org.autojs.autojs.util.DrawableUtils
 import org.autojs.autojs.util.ViewUtils.setViewMeasure
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FloatingConsoleExpandBinding
-import org.autojs.autojs6.databinding.FloatingWindowCollapseBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.FloatingConsoleExpandBinding
+import com.xsjplay.android.databinding.FloatingWindowCollapseBinding
 import kotlin.math.roundToInt
 
 /**

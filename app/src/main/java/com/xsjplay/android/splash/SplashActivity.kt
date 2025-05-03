@@ -4,10 +4,10 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.xsjplay.android.databinding.ActivitySplashInrtBinding
 import com.xsjplay.android.main.MainActivity
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.ui.floating.FloatyWindowManger
-import org.autojs.autojs6.databinding.ActivitySplashBinding
 
 /**
  * Created by Stardust on Jul 7, 2017.
@@ -28,7 +28,7 @@ class SplashActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(ActivitySplashBinding.inflate(layoutInflater).root)
+        setContentView(ActivitySplashInrtBinding.inflate(layoutInflater).root)
 
         @Suppress("DEPRECATION")
         mHandler = Looper.myLooper()?.let { Handler(it) } ?: Handler()

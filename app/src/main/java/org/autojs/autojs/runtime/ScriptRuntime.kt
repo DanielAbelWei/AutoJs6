@@ -107,7 +107,7 @@ import org.autojs.autojs.util.RootUtils
 import org.autojs.autojs.util.SdkVersionUtils
 import org.autojs.autojs.util.StringUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import org.mozilla.javascript.BaseFunction
 import org.mozilla.javascript.ContextFactory
 import org.mozilla.javascript.RhinoException

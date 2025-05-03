@@ -10,7 +10,7 @@ import org.autojs.autojs.app.GlobalAppContext
 import org.autojs.autojs.core.accessibility.AccessibilityService
 import org.autojs.autojs.runtime.ScriptRuntime
 import org.autojs.autojs.util.ClipboardUtils
-import org.autojs.autojs6.BuildConfig
+import com.xsjplay.android.BuildConfig
 import org.mozilla.javascript.RhinoException
 import java.lang.Thread.UncaughtExceptionHandler
 import java.lang.ref.WeakReference

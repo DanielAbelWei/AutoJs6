@@ -41,9 +41,9 @@ import org.autojs.autojs.ui.settings.PreferencesActivity
 import org.autojs.autojs.util.NetworkUtils
 import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.MODE
-import org.autojs.autojs6.BuildConfig
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.FragmentDrawerBinding
+import com.xsjplay.android.BuildConfig
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.FragmentDrawerBinding
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import java.lang.ref.WeakReference

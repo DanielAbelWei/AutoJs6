@@ -14,9 +14,9 @@ import org.autojs.autojs.theme.ThemeColorManagerCompat;
 import org.autojs.autojs.ui.explorer.ExplorerViewHelper;
 import org.autojs.autojs.ui.widget.BindableViewHolder;
 import org.autojs.autojs.util.ColorUtils;
-import org.autojs.autojs6.R;
-import org.autojs.autojs6.databinding.ExplorerFirstCharIconBinding;
-import org.autojs.autojs6.databinding.FileChooseListFileBinding;
+import com.xsjplay.android.R;
+import com.xsjplay.android.databinding.ExplorerFirstCharIconBinding;
+import com.xsjplay.android.databinding.FileChooseListFileBinding;
 
 class ExplorerItemViewHolder extends BindableViewHolder<Object> {
 

@@ -7,7 +7,7 @@ import android.view.View
 import org.autojs.autojs.AbstractAutoJs.Companion.isInrt
 import org.autojs.autojs.util.ColorUtils
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 import java.lang.ref.WeakReference
 import java.util.*
 

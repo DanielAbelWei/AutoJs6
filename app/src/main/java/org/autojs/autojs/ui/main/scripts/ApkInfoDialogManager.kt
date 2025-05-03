@@ -22,8 +22,8 @@ import org.autojs.autojs.extension.MaterialDialogExtensions.setCopyableTextIfAbs
 import org.autojs.autojs.pio.PFiles
 import org.autojs.autojs.runtime.api.AppUtils
 import org.autojs.autojs.util.IntentUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ApkFileInfoDialogListItemBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ApkFileInfoDialogListItemBinding
 import java.io.File
 import java.util.jar.JarEntry
 import java.util.jar.JarFile

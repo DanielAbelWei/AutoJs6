@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.preference.PreferenceFragmentCompat
 import org.autojs.autojs.util.ViewUtils
-import org.autojs.autojs6.R
+import com.xsjplay.android.R
 
 class DeveloperOptionsFragment : PreferenceFragmentCompat() {
 

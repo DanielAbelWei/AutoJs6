@@ -36,8 +36,8 @@ import org.autojs.autojs.util.ViewUtils
 import org.autojs.autojs.util.ViewUtils.setMenuIconsColorByThemeColorLuminance
 import org.autojs.autojs.util.ViewUtils.setNavigationIconColorByThemeColorLuminance
 import org.autojs.autojs.util.WorkingDirectoryUtils
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivityMainXsjBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivityMainXsjBinding
 
 /**
  * Modified by SuperMonster003 as of Dec 1, 2021.

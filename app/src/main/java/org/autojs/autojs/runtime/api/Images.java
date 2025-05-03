@@ -34,7 +34,7 @@ import org.autojs.autojs.core.ui.inflater.util.Drawables;
 import org.autojs.autojs.pio.UncheckedIOException;
 import org.autojs.autojs.runtime.ScriptRuntime;
 import org.autojs.autojs.runtime.api.ImageFeatureMatching.FeatureMatchingDescriptor;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.opencv.android.Utils;

@@ -27,7 +27,7 @@ import org.autojs.autojs.ui.enhancedfloaty.ResizableExpandableFloatyWindow;
 import org.autojs.autojs.ui.log.LogActivity;
 import org.autojs.autojs.util.DisplayUtils;
 import org.autojs.autojs.util.ViewUtils;
-import org.autojs.autojs6.R;
+import com.xsjplay.android.R;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

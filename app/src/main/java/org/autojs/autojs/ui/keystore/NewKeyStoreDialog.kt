@@ -12,8 +12,8 @@ import android.view.WindowManager
 import android.widget.ArrayAdapter
 import android.widget.LinearLayout
 import androidx.fragment.app.DialogFragment
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.DialogNewKeyStoreBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.DialogNewKeyStoreBinding
 
 open class NewKeyStoreDialog(
     private val callback: Callback,

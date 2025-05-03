@@ -3,8 +3,8 @@ package org.autojs.autojs.inrt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import org.autojs.autojs.theme.preference.ThemeColorPermissionSwitchPreference
-import org.autojs.autojs6.R
-import org.autojs.autojs6.databinding.ActivitySettingsInrtBinding
+import com.xsjplay.android.R
+import com.xsjplay.android.databinding.ActivitySettingsInrtBinding
 
 /**
  * Created by Stardust on Dec 8, 2017.
