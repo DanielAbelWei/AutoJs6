@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.xsjplay.android.databinding.ActivitySplashInrtBinding
+import com.xsjplay.android.databinding.ActivitySplashBinding
 import com.xsjplay.android.main.MainActivity
 import org.autojs.autojs.ui.BaseActivity
 import org.autojs.autojs.ui.floating.FloatyWindowManger
@@ -28,7 +28,7 @@ class SplashActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(ActivitySplashInrtBinding.inflate(layoutInflater).root)
+        setContentView(ActivitySplashBinding.inflate(layoutInflater).root)
 
         @Suppress("DEPRECATION")
         mHandler = Looper.myLooper()?.let { Handler(it) } ?: Handler()
