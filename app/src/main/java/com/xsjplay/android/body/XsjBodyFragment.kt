@@ -1,12 +1,12 @@
 package com.xsjplay.android.body
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import org.autojs.autojs.AutoJs.Companion.instance
 import org.autojs.autojs.model.explorer.ExplorerDirPage
 import org.autojs.autojs.model.explorer.ExplorerFileItem
 import org.autojs.autojs.model.explorer.ExplorerItem
@@ -18,10 +18,9 @@ import org.autojs.autojs.ui.explorer.ExplorerViewHelper
 import org.autojs.autojs.ui.widget.FirstCharView
 import org.autojs.autojs.util.ColorUtils
 import org.autojs.autojs.util.FileUtils
-import org.autojs.autojs.util.WorkingDirectoryUtils.path
+import org.autojs.autojs.util.ViewUtils.showToast
 import org.autojs.autojs6.R
 import java.io.File
-import java.util.Locale
 
 class XsjBodyFragment : Fragment() {
 
@@ -32,7 +31,7 @@ class XsjBodyFragment : Fragment() {
     private lateinit var mOptions: View
     private lateinit var mInstall: View
     private lateinit var mRun: View
-    private lateinit var mDelete: View
+    private lateinit var mStop: View
     private lateinit var mEdit: View
     private lateinit var mInfo: View
     private lateinit var mFirstChar: FirstCharView
@@ -58,7 +57,9 @@ class XsjBodyFragment : Fragment() {
             mFileSize = it.findViewById(R.id.script_file_size)
             mRun = it.findViewById(R.id.run)
             mRun.setOnClickListener { run() }
-            mDelete = it.findViewById(R.id.delete)
+
+            mStop = it.findViewById(R.id.stop)
+            mStop.setOnClickListener { stop() }
             mName.text = "Main"
 
             mExplorerItem = ExplorerFileItem(
@@ -71,6 +72,8 @@ class XsjBodyFragment : Fragment() {
             setFirstChar()
 
             updateVisibility(mRun, true)
+            updateVisibility(mStop, true)
+
 
         }
     }
@@ -99,6 +102,12 @@ class XsjBodyFragment : Fragment() {
             File(requireContext().filesDir, "sample/Main/main.js")
         ))
         // notifyItemOperated()
+    }
+
+    private fun stop() {
+        if (instance.scriptEngineService.stopAllAndToast() <= 0) {
+            showToast(requireContext(), requireContext().getString(R.string.text_no_scripts_to_stop_running))
+        }
     }
 
     private fun updateVisibility(view: View, visible: Boolean) {

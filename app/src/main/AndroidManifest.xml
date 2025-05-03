@@ -231,7 +231,7 @@
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.FullScreen" />
-        
+
         <activity
             android:name="com.xsjplay.android.main.MainActivity"
             android:exported="true"

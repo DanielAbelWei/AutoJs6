@@ -42,7 +42,7 @@
                 android:id="@+id/title_label"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="脚本"
+                android:text="主控界面"
                 android:gravity="center"
                 android:textColor="#FFF"
                 android:textSize="18dp"

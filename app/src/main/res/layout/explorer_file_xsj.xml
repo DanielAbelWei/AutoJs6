@@ -112,7 +112,7 @@
                 app:tint="#A9AAAB" />
 
             <ImageView
-                android:id="@+id/delete"
+                android:id="@+id/stop"
                 android:visibility="gone"
                 tools:visibility="visible"
                 android:layout_width="36dp"
